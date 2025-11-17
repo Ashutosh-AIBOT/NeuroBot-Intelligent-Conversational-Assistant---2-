@@ -1,0 +1,14 @@
+
+# prectical of Oops and more things 
+
+openai
+requests
+langchain
+langchain-openai
+python-dotenv
+streamlit
+pydantic
+pytesseract
+Pillow
+PyMuPDF
+pyyaml

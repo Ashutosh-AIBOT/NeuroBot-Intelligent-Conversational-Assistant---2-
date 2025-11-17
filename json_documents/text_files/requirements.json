@@ -1,0 +1,6 @@
+{
+    "file_name": "requirements.txt",
+    "type": "Text",
+    "text": "openai\nrequests\nlangchain\nlangchain-openai\npython-dotenv\nstreamlit\npydantic\npytesseract\nPillow\nPyMuPDF\npyyaml",
+    "timestamp": "2025-10-12T18:47:36.925314"
+}

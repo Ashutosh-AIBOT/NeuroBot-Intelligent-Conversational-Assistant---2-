@@ -1,0 +1,100 @@
+{
+    "file_name": "fastapi.pdf",
+    "type": "PDF",
+    "total_pages": 23,
+    "pages": [
+        {
+            "page": 1,
+            "text": "Why FastAPI is fast to run?\n12 May 2025\n16:40\n   \n2. FastAPI Introduction Page 1"
+        },
+        {
+            "page": 2,
+            "text": "Automatic Input Validation\n1.\nAuto-Generated Interactive Documentation\n2.\nSeamless Integration with Modern Ecosystem (ML/DL libraries, OAuth, JWT, \nSQL Alchemy, Docker, Kubernetes etc.)\n3.\nWhy FastAPI is fast to code?\n12 May 2025\n16:41\n   \n2. FastAPI Introduction Page 2"
+        },
+        {
+            "page": 3,
+            "text": "Project Overview\n14 May 2025\n15:06\n   \n3. HTTP Methods (GET) Page 3"
+        },
+        {
+            "page": 4,
+            "text": "HTTP Methods\n14 May 2025\n15:06\n   \n3. HTTP Methods (GET) Page 4"
+        },
+        {
+            "page": 5,
+            "text": "Path parameters are dynamic segments of a URL path used to identify a specific \nresource.\nThe Path() function in FastAPI is used to provide metadata, validation \nrules, and documentation hints for path parameters in your API \nendpoints.\nTitle\nDescription\nExample\nge, gt, le, lt\nMin_length\nMax_length\nregex\nPath Params\n15 May 2025\n16:14\n   \n4. Path Params and Query Params Page 5"
+        },
+        {
+            "page": 6,
+            "text": "4. Path Params and Query Params Page 6"
+        },
+        {
+            "page": 7,
+            "text": "Query Parameter\n15 May 2025\n18:17\n   \n4. Path Params and Query Params Page 7"
+        },
+        {
+            "page": 8,
+            "text": "4. Path Params and Query Params Page 8"
+        },
+        {
+            "page": 9,
+            "text": "Pydantic\n17 May 2025\n18:37\n   \nPydantic Page 9"
+        },
+        {
+            "page": 10,
+            "text": "Recap\n21 May 2025\n17:16\n   \n5. POST Page 10"
+        },
+        {
+            "page": 11,
+            "text": "A request body is the portion of an HTTP request that \ncontains data sent by the client to the server. It is \ntypically used in HTTP methods such as POST,  or PUT to \ntransmit structured data (e.g., JSON, XML, form-data) for \nthe purpose of creating or updating resources on the \nserver. The server parses the request body to extract the \nnecessary information and perform the intended \noperation.\nPlan of action\n21 May 2025\n17:22\n   \n5. POST Page 11"
+        },
+        {
+            "page": 12,
+            "text": "Project Progress\n22 May 2025\n15:59\n   \n6. PUT and DELETE Page 12"
+        },
+        {
+            "page": 13,
+            "text": "Update endpoint\n22 May 2025\n17:04\n   \n6. PUT and DELETE Page 13"
+        },
+        {
+            "page": 14,
+            "text": "Plan of Attack\n27 May 2025\n16:30\n   \n7. Serving the ML model Page 14"
+        },
+        {
+            "page": 15,
+            "text": "Flow Diagram\n27 May 2025\n16:52\n   \n7. Serving the ML model Page 15"
+        },
+        {
+            "page": 16,
+            "text": "Step 1 - Building & Exporting the Model\n28 May 2025\n12:50\n   \n7. Serving the ML model Page 16"
+        },
+        {
+            "page": 17,
+            "text": "Step 2 - Building the API Endpoint\n28 May 2025\n13:27\n   \n7. Serving the ML model Page 17"
+        },
+        {
+            "page": 18,
+            "text": "Recap\n02 June 2025\n17:24\n   \n8. Best Practices for API Page 18"
+        },
+        {
+            "page": 19,
+            "text": "Create a new folder\n1.\nField validator for city feature\n2.\nAdd routes\nHome \na.\nHealth check\nb.\n3.\nAdd model version\n4.\nSeparation of logic\nPydantic model\na.\nCity tier\nb.\nML logic\nc.\n5.\nTry catch\n6.\nAdd confidence score\n7.\nResponse Model\n8.\nImprovements\n02 June 2025\n17:26\n   \n8. Best Practices for API Page 19"
+        },
+        {
+            "page": 20,
+            "text": "Recap\n05 June 2025\n18:12\n   \n9. Dockerization Page 20"
+        },
+        {
+            "page": 21,
+            "text": "Setup \nInstall Docker\n1.\nCreate account on Docker Hub\n2.\nStep 1 - Create a Dockerfile\nStep 2 - Build the docker image [docker build -t tweakster24/insurance-\npremium-api .]\nStep 3 - Login to Docker Hub [docker login]\nStep 4 - Push the image to Docker Hub [docker push tweakster24/insurance-\npremium-api] \nStep 5 - Pull the docker image \nStep 6 - Run the docker image locally [docker run -p 8000:8000 \ntweakster24/insurance-premium-api]\nSteps to create a Docker Image\n05 June 2025\n18:52\n   \n9. Dockerization Page 21"
+        },
+        {
+            "page": 22,
+            "text": "Recap\n06 June 2025\n16:52\n   \n10. Deployment Page 22"
+        },
+        {
+            "page": 23,
+            "text": "create an EC2 instance\n1.\nConnect to the EC2 instance\n2.\nRun the following commands\n3.\nsudo apt-get update\na.\nsudo apt-get install -y docker.io\nb.\nsudo systemctl start docker\nc.\nsudo systemctl enable docker\nd.\nsudo usermod -aG docker $USER\ne.\nexit\nf.\nRestart a new connection to EC2 instance\n4.\nRun the following commands\n5.\ndocker pull tweakster24/insurance-premium-api:latest\na.\ndocker run -p 8000:8000 tweakster24/insurance-premium-api\nb.\nchange security group settings\n6.\nCheck the API \n7.\nChange the frontend code\n8.\nSteps for Deployment\n06 June 2025\n16:52\n   \n10. Deployment Page 23"
+        }
+    ],
+    "timestamp": "2025-10-12T19:39:22.672735"
+}
