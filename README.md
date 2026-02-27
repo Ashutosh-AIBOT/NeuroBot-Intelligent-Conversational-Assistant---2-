@@ -104,32 +104,10 @@ Key libraries used:
 
 ---
 
-## 🖼️ Screenshots (Optional)
-
-*Add interface screenshots here for better visibility.*
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-If you’d like to improve the chatbot pipeline or UI, feel free to open a PR or report issues.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 💬 Contact
 
 For collaborations or queries:
 
 **👤 Ashutosh**
-📧 *your-email-here*
-💼 *GitHub/LinkedIn link*
-
 ---
 
